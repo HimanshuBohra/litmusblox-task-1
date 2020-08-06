@@ -1,0 +1,6 @@
+STATUS,PRIORITY,DEADLINE,TASK NAME,ASSIGNEE,DESCRIPTION,DELIVERABLE,% DONE,FIXED COST,EST. HRS,ACTUAL HRS
+Project Name,,,,,,,38%,"$1,640.00",55,56
+On Hold,High,9/9/17,Task,,Details 1,,100%,$200.00,30,25
+Not Yet Started,Low,9/10/17,Task,,Details 2,,50%,$600.00,11,10
+In Progress,Medium,9/11/17,Task,,Details 3,,0%,$800.00,12,18
+Complete,Medium,9/12/17,Task,,Details 4,,0%,$40.00,2,3
