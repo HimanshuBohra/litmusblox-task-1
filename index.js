@@ -25,8 +25,8 @@ fs.createReadStream('data.csv')
     }
 })
 .on('end',function(){
-    console.log("Total Fixed Cost : "+cost);
-    console.log("Sum of Actual Hours : "+actual);
+    console.log("Total Fixed Cost : $"+cost);
+    console.log("Sum of Actual Hours : "+actual+" Hours");
     console.table(status);
     console.table(priority);
     console.table(deadline);
