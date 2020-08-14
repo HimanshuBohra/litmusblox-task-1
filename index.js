@@ -27,9 +27,10 @@ fs.createReadStream('data.csv')
 .on('end',function(){
     console.log("Total Fixed Cost : $"+cost);
     console.log("Sum of Actual Hours : "+actual+" Hours");
-    console.table(status);
-    console.table(priority);
-    console.table(deadline);
-    console.table(fixed_cost);
-    console.table(actual_hrs);
-});  
+    console.table( {  
+        "Status" : status,
+        "Priority " : priority,
+        "Deadline":deadline,
+        "Fixed Cost":fixed_cost,
+        "Actual Hours" : actual_hrs});
+   
